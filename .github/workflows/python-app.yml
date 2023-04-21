@@ -19,6 +19,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+    - uses: psf/black@stable
     - name: Set up Python 3.10
       uses: actions/setup-python@v3
       with:
@@ -28,10 +29,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install black pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Lint with flake8
-      run: |
-        # stop the build if there are Python syntax errors or undefined names
-        black .
     - name: Test with pytest
       run: |
         pytest
