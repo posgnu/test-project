@@ -5,7 +5,7 @@ import skimage
 import skimage.draw
 from PIL import Image
 
-fname = 'bird.jpeg'
+fname = "bird.jpeg"
 
 colors = ("red", "green", "blue")
 
