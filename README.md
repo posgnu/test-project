@@ -1,4 +1,4 @@
-# Project name
+# Python Project Template
 
 #### Dependencies
 ```sh
