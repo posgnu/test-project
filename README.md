@@ -8,13 +8,13 @@ Before running this project, make sure to install all required dependencies by r
 pip install -r requirements.txt
 ```
 
-#### Code Formatting
+### Code Formatting
 We use the black code formatter to ensure consistent code formatting across the entire project. To format your code, simply run the following command:
 ```sh
 black .
 ```
 
-#### Pre-commit Hooks
+### Pre-commit Hooks
 We use pre-commit to run a set of checks on every commit to ensure that the codebase is always clean and consistent. To install the pre-commit hooks, run:
 ```sh
 pre-commit install
