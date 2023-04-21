@@ -10,4 +10,12 @@ pip install -r requirements.txt
 black .
 ```
 
+#### pre-commit
+```sh
+pre-commit install
+```
 
+Run against all files
+```sh
+pre-commit run --all-files
+```
